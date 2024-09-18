@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #1c1c1c, #3b3b3b);
+    color: #fff;
+}
+
+h1 {
+    color: #00ffcc;
+    text-align: center;
+}
+
+div {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 2px solid #00ffcc;
+}
+
+input[type="submit"] {
+    background-color: #00ffcc;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00e6b8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #00ffcc;
+}
+
+th {
+    background-color: rgba(0, 255, 204, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(0, 255, 204, 0.2);
+}
+
+a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
